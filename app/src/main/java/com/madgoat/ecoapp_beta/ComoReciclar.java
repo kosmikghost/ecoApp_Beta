@@ -1,10 +1,10 @@
 package com.madgoat.ecoapp_beta;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ComoReciclar extends AppCompatActivity {
 
@@ -27,5 +27,24 @@ public class ComoReciclar extends AppCompatActivity {
     public void papeles(View view){
         Intent plasticos = new Intent(this, ReciclarPapeles.class );
         startActivity(plasticos);
+    }
+
+    public void chatarra(View view){
+        Intent plasticos = new Intent(this, reciclar_chatarra.class );
+        startActivity(plasticos);
+    }
+
+    public void aluminio(View view){
+        Intent plasticos = new Intent(this, reciclar_aluminio.class );
+        startActivity(plasticos);
+    }
+
+    public void pilas(View view){
+        Intent plasticos = new Intent(this, reciclar_pilasytapas.class );
+        startActivity(plasticos);
+    }
+
+    public void volverHome(View view){
+        finish();
     }
 }

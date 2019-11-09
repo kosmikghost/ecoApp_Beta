@@ -94,18 +94,6 @@
             android:textColor="#000000" />
 
         <Button
-            android:id="@+id/button7"
-            android:layout_width="302dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/animcolor"
-            android:onClick="papeles"
-            android:text="ALUMINIO"
-            android:textColor="#000000" />
-
-        <Button
             android:id="@+id/button6"
             android:layout_width="302dp"
             android:layout_height="wrap_content"
@@ -113,8 +101,33 @@
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/animcolor"
-            android:onClick="papeles"
+            android:onClick="chatarra"
             android:text="CHATARRA"
             android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/animcolor"
+            android:onClick="aluminio"
+            android:text="ALUMINIO"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/animcolor"
+            android:onClick="pilas"
+            android:text="PILAS Y TAPAS"
+            android:textColor="#000000" />
+
     </LinearLayout>
 </ScrollView>
