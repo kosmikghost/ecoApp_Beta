@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/common_google_signin_btn_text_dark_default">
 
@@ -27,13 +27,11 @@
 
         <Button
             android:id="@+id/btnrecic"
-            android:layout_width="360dp"
+            android:layout_width="340dp"
             android:layout_height="86dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
+            android:layout_marginLeft="18dp"
             android:layout_marginTop="18dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginRight="18dp"
             android:background="@drawable/anim2"
             android:onClick="abrirRegiones"
             app:layout_constraintEnd_toEndOf="parent"
@@ -42,13 +40,9 @@
 
         <Button
             android:id="@+id/btncrea"
-            android:layout_width="360dp"
+            android:layout_width="340dp"
             android:layout_height="86dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/anim"
             android:onClick="abrirReciclajeCreativo"
@@ -60,7 +54,7 @@
 
         <Button
             android:id="@+id/btncomore"
-            android:layout_width="177dp"
+            android:layout_width="167dp"
             android:layout_height="86dp"
             android:layout_marginStart="26dp"
             android:layout_marginLeft="26dp"
@@ -75,7 +69,7 @@
 
         <Button
             android:id="@+id/btntommie"
-            android:layout_width="177dp"
+            android:layout_width="167dp"
             android:layout_height="86dp"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="24dp"
