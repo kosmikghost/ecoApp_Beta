@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/common_google_signin_btn_text_dark_default"
+    android:background="@drawable/back2"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/common_google_signin_btn_text_dark_default">
+        android:layout_height="wrap_content"
+        android:background="@drawable/back2">
 
         <ImageView
             android:id="@+id/imageButton3"
@@ -42,7 +42,7 @@
             android:id="@+id/btncrea"
             android:layout_width="340dp"
             android:layout_height="86dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="12dp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/anim"
             android:onClick="abrirReciclajeCreativo"
@@ -54,12 +54,13 @@
 
         <Button
             android:id="@+id/btncomore"
-            android:layout_width="167dp"
+            android:layout_width="160dp"
             android:layout_height="86dp"
             android:layout_marginStart="26dp"
             android:layout_marginLeft="26dp"
-            android:layout_marginEnd="7dp"
-            android:layout_marginRight="7dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="8dp"
             android:background="@drawable/animcolor"
             android:onClick="abrirReciclar"
             android:text="¿Como reciclar?"
@@ -69,14 +70,18 @@
 
         <Button
             android:id="@+id/btntommie"
-            android:layout_width="167dp"
+            android:layout_width="160dp"
             android:layout_height="86dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="24dp"
             android:layout_marginRight="24dp"
+            android:layout_marginBottom="8dp"
             android:background="@drawable/animcolor"
             android:onClick="abrirAcercaDe"
             android:text="Acerca de Tommiesoftware"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/btncomore"
             app:layout_constraintTop_toBottomOf="@+id/btncrea" />
