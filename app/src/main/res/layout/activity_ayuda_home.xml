@@ -38,7 +38,7 @@
             android:layout_gravity="center"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/btnmapa2" />
+            app:srcCompat="@drawable/btnmapa" />
 
         <TextView
             android:id="@+id/textView13"
