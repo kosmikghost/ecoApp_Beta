@@ -94,18 +94,6 @@
             android:textColor="#000000" />
 
         <Button
-            android:id="@+id/button7"
-            android:layout_width="302dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/animcolor"
-            android:onClick="papeles"
-            android:text="ALUMINIO"
-            android:textColor="#000000" />
-
-        <Button
             android:id="@+id/button6"
             android:layout_width="302dp"
             android:layout_height="wrap_content"
@@ -113,8 +101,117 @@
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/animcolor"
-            android:onClick="papeles"
+            android:onClick="chatarra"
             android:text="CHATARRA"
             android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/animcolor"
+            android:onClick="aluminio"
+            android:text="ALUMINIO"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/animcolor"
+            android:onClick="pilas"
+            android:text="PILAS Y TAPAS"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10px"
+            android:text="¿Por qué es importante reciclar?"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="  • Gracias al reciclaje se previene el desuso de materiales potencialmente útiles, se reduce el consumo de nueva materia prima, además de reducir el uso de energía, la contaminación del aire (a través de la incineración) y del agua."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10px"
+            android:text="Consecuencias del no reciclaje "
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="  • Aumentará la contaminación."
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="  • Si no se recicla más hábitats se destruirán, lo que a su vez puede afectar a la vida silvestre."
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="  • Si no reciclamos finalmente nos quedaremos sin recursos naturales."
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="  • AUMENTO considerable de la cantidad de residuos, hasta que no haya espacio para segregarlos. En el reino unido algunas capitales ya se enfrentan a este problema, lo cual puede hacer que se proliferen problemas de salud."
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/animcolor"
+            android:onClick="volverHome"
+            android:text="Volver"
+            android:textColor="#000000" />
+
     </LinearLayout>
 </ScrollView>
