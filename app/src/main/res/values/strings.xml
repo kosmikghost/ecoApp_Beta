@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EcoCHILE</string>
+    <string name="title_activity_maps">Santiago</string>
+    <string name="title_activity_valparaiso">Map</string>
+    <string name="title_activity_reciclaje_creativo">ReciclajeCreativo</string>
+    <string name="title_home">Jardinería</string>
+    <string name="title_dashboard">Hogar</string>
+    <string name="title_notifications">Moda</string>
+    <string name="title_activity_ayuda_reciclaje">AyudaReciclaje</string>
+
+
+
+</resources>
