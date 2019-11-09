@@ -67,7 +67,7 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/animcolor"
             android:onClick="abrirReciclar"
-            android:text="¿Como Reciclar"
+            android:text="¿Como Reciclar??"
             android:textColor="#000000" />
 
         <Button
