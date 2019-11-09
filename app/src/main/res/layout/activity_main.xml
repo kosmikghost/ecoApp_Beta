@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back2"
+    android:background="@color/common_google_signin_btn_text_dark_default"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/back2">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/imageButton3"
@@ -25,55 +24,49 @@
             app:srcCompat="@drawable/logoecochile" />
 
         <Button
-            android:id="@+id/btnpuntos"
-            android:layout_width="460dp"
-            android:layout_height="110dp"
-            android:layout_marginTop="24dp"
+            android:id="@+id/button13"
+            android:layout_width="410dp"
+            android:layout_height="87dp"
+            android:layout_marginTop="60dp"
             android:background="@drawable/anim2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
 
         <Button
-            android:id="@+id/btncreativo"
-            android:layout_width="460dp"
-            android:layout_height="110dp"
-            android:layout_marginTop="8dp"
+            android:id="@+id/button14"
+            android:layout_width="410dp"
+            android:layout_height="89dp"
             android:background="@drawable/anim"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.524"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnpuntos"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/button13"
+            app:layout_constraintVertical_bias="0.092" />
 
         <Button
-            android:id="@+id/btncomore"
-            android:layout_width="223dp"
-            android:layout_height="110dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="276dp"
-            android:layout_marginRight="276dp"
-            android:background="@drawable/animcolor"
-            android:text="¿Como Reciclar?"
+            android:id="@+id/button16"
+            android:layout_width="193dp"
+            android:layout_height="86dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:text="Button"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btncreativo"
-            app:layout_constraintVertical_bias="0.3" />
+            app:layout_constraintHorizontal_bias="0.129"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button14"
+            app:layout_constraintVertical_bias="1.0" />
 
         <Button
-            android:id="@+id/btnacerca"
-            android:layout_width="223dp"
-            android:layout_height="110dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/animcolor"
-            android:text="Acerca de tommiesoftware"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/button17"
+            android:layout_width="193dp"
+            android:layout_height="85dp"
+            android:text="Button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.266"
-            app:layout_constraintStart_toEndOf="@+id/btncomore"
-            app:layout_constraintTop_toBottomOf="@+id/btncreativo"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintStart_toEndOf="@+id/button16"
+            app:layout_constraintTop_toBottomOf="@+id/button14" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
