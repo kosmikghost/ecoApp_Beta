@@ -68,7 +68,7 @@
             android:gravity="center"
             android:paddingTop="5px"
             android:paddingBottom="10px"
-            android:text="¿Por qué es importante reciclar?"
+            android:text="hola"
             android:textColor="#000000"
             android:textSize="22sp"
             android:typeface="normal" />
