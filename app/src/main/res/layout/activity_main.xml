@@ -63,7 +63,7 @@
             android:layout_marginBottom="8dp"
             android:background="@drawable/animcolor"
             android:onClick="abrirReciclar"
-            android:text="¿Como "
+            android:text="¿Como Reciclar Prueba"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/btntommie"
             app:layout_constraintStart_toStartOf="parent" />
