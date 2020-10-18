@@ -77,7 +77,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(point10).title("Piguchén 2788").snippet("Vidrio, Papel, Cartón, Plástico, Metal").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
 
         LatLng point11 = new LatLng(-33.58415520,  -70.66086440);
-        mMap.addMarker(new MarkerOptions().position(point11).title("Domingo Sta Cruz 648-622").snippet("Vidrio, Papel, Cartón, Plástico, Metal").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions().position(point11).title("Domingo Sta Cruz 648-622").snippet("Punto Limpio - vidrio, papel, cartón, cartón para bebida, plástico, metal").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
         LatLng point12 = new LatLng(-33.58051300,  -70.66944500);
         mMap.addMarker(new MarkerOptions().position(point12).title("Vecinal Sur 1453-1493").snippet("Vidrio, Papel, Cartón, Metal").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
         LatLng point13 = new LatLng(-33.57689550,  -70.66980030);
@@ -134,7 +134,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng point36 = new LatLng(-33.556093, -70.657536);
         mMap.addMarker(new MarkerOptions().position(point36).title("Almirante Riveros 10123-10135").snippet("Celular, Pila").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
         LatLng point37 = new LatLng(-33.554049,   -70.676963);
-        mMap.addMarker(new MarkerOptions().position(point37).title("Open Plaza El Bosque").snippet("Vidrio, Papel, Cartón, Plástico, Metal").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions().position(point37).title("Open Plaza El Bosque").snippet("Punto Limpio - vidrio, papel, cartón, cartón para bebida, plástico, metal").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
         LatLng point38 = new LatLng(-33.551917,   -70.675822);
         mMap.addMarker(new MarkerOptions().position(point38).title("Luis Barros Borgoño 167-201").snippet("Celular, Pila").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
         LatLng point39 = new LatLng(-33.550363,   -70.672121);
