@@ -274,12 +274,64 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng point100= new LatLng(-33.53388200,-70.57491300);
         mMap.addMarker(new MarkerOptions().position(point100).title("Los Mapuches 1256").snippet("Papel, Cartón para Bebida, Plástico").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
 
+        LatLng point200= new LatLng(-33.53762535,-70.62086102);
+        mMap.addMarker(new MarkerOptions().position(point200).title("Cardenal Raúl Silva Henríquez 8283").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point201= new LatLng(-33.53514861,-70.62267775);
+        mMap.addMarker(new MarkerOptions().position(point201).title("2 Poniente 8177").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point202= new LatLng(-33.53468662,-70.62489821);
+        mMap.addMarker(new MarkerOptions().position(point202).title("El Tabo 8143").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point203= new LatLng(-33.53086100,-70.62314600);
+        mMap.addMarker(new MarkerOptions().position(point203).title("Cardenal Raul Silva Henriquez 7940").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point204= new LatLng(-33.52950870,-70.62226010);
+        mMap.addMarker(new MarkerOptions().position(point204).title("Combarbala 575").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+
+        LatLng point205= new LatLng(-33.52930134,-70.62156708);
+        mMap.addMarker(new MarkerOptions().position(point205).title("Quipue 7897").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point206= new LatLng(-33.53133354,-70.61304435);
+        mMap.addMarker(new MarkerOptions().position(point206).title("Calle 8 6447").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point207= new LatLng(-33.52827042,-70.62178473);
+        mMap.addMarker(new MarkerOptions().position(point207).title("Quipue 7852").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point208= new LatLng(-33.54287820,-70.63230480);
+        mMap.addMarker(new MarkerOptions().position(point208).title("Avenida Americo Vespucio, Municipalidad 2").snippet("Punto Limpio - Vidrio, Papel, Cartón").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+        LatLng point209= new LatLng(-33.54564914,-70.62997141);
+        mMap.addMarker(new MarkerOptions().position(point209).title("Diagonal Sur Oriente 351").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+
+        LatLng point210= new LatLng(-33.54930006,-70.61908651);
+        mMap.addMarker(new MarkerOptions().position(point210).title("Manuel Plaza 880").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point211= new LatLng(-33.52976644,-70.63147150);
+        mMap.addMarker(new MarkerOptions().position(point211).title("Illapel 7875").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point212= new LatLng(-33.52655835,-70.61408626);
+        mMap.addMarker(new MarkerOptions().position(point212).title("Linares 875").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point213= new LatLng(-33.53829600,-70.60547600);
+        mMap.addMarker(new MarkerOptions().position(point213).title("Sotero del Rio 980").snippet("Papel, Cartón para bebida").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point214= new LatLng(-33.54778869,-70.63048548);
+        mMap.addMarker(new MarkerOptions().position(point214).title("Pasaje Pedro Ignacio Gatica").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
 
 
 
 
 
 
+        LatLng point215= new LatLng(-33.55075679,-70.62628688);
+        mMap.addMarker(new MarkerOptions().position(point215).title("Canto General 501").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point216= new LatLng(-33.52403247,-70.62242701);
+        mMap.addMarker(new MarkerOptions().position(point216).title("Yungay 641").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point217= new LatLng(-33.54518500,-70.60559100);
+        mMap.addMarker(new MarkerOptions().position(point217).title("Las Anémonas 1404").snippet("Papel, Cartón para bebida").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point218= new LatLng(-33.53310000,-70.60360700);
+        mMap.addMarker(new MarkerOptions().position(point218).title("Santa Raquel 8459").snippet("Vidrio, Papel, Plástico").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point219= new LatLng(-33.54512800,-70.60452300);
+        mMap.addMarker(new MarkerOptions().position(point219).title("Las Camelias 9953").snippet("Papel, Cartón para bebida, Plástico").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
 
+        LatLng point220= new LatLng(-33.55075679,-70.62628688);
+        mMap.addMarker(new MarkerOptions().position(point220).title("Canto General 501").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point221= new LatLng(-33.52403247,-70.62242701);
+        mMap.addMarker(new MarkerOptions().position(point221).title("Yungay 641").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point222= new LatLng(-33.54518500,-70.60559100);
+        mMap.addMarker(new MarkerOptions().position(point222).title("Las Anémonas 1404").snippet("Papel, Cartón para bebida").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point223= new LatLng(-33.53310000,-70.60360700);
+        mMap.addMarker(new MarkerOptions().position(point223).title("Santa Raquel 8459").snippet("Vidrio, Papel, Plástico").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point224= new LatLng(-33.54512800,-70.60452300);
+        mMap.addMarker(new MarkerOptions().position(point224).title("Las Camelias 9953").snippet("Papel, Cartón para bebida, Plástico").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
     }
 }
