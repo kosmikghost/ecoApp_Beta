@@ -162,7 +162,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng point49 = new LatLng(-33.57489800,   -70.57947500);
         mMap.addMarker(new MarkerOptions().position(point49).title("Vizcachas 0252").snippet("Plástico").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
         LatLng point50= new LatLng(-33.57852380,   -70.56954440);
-        mMap.addMarker(new MarkerOptions().position(point50).title("Nonato Coo 3265").snippet("Vidrio, Papel, Cartón, Plástico, Metal").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions().position(point50).title("Nonato Coo 3265").snippet("Punto limpio - vidrio, papel, cartón, cartón para bebida, plástico").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
 
         LatLng point51= new LatLng(-33.57572600, -70.56147000);
         mMap.addMarker(new MarkerOptions().position(point51).title("Avenida Gabriela Oriente 1762").snippet("Vidrio").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
@@ -242,9 +242,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(point85).title("San Jorge 901").snippet("Vidrio, Cartón para Bebida, Plástico").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
 
         LatLng point86= new LatLng(-33.56755100,-70.55594040);
-        mMap.addMarker(new MarkerOptions().position(point86).title("Avenida Los Toros 5441").snippet("Vidrio, Papel , Cartón, Cartón para Bebida, Plástico, Metal").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions().position(point86).title("Avenida Los Toros 5441").snippet("Punto limpio - vidrio, papel, cartón, cartón para bebida, plástico, metal").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
         LatLng point87 = new LatLng(-33.56655490,-70.55693930);
-        mMap.addMarker(new MarkerOptions().position(point87).title("Camilo Henríquez 3767").snippet("Vidrio, Papel, Cartón, Cartón para Bebida, Plástico, Metal").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions().position(point87).title("Camilo Henríquez 3767").snippet("Punto limpio - vidrio, papel, cartón").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
         LatLng point88 = new LatLng(-33.55983930,-70.56321606);
         mMap.addMarker(new MarkerOptions().position(point88).title("Los Plátanos 11463").snippet("Vidrio").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
         LatLng point89 = new LatLng(-33.55716300,-70.55963400);
@@ -273,6 +273,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(point99).title("Rojas Magallanes 185").snippet("Vidrio").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
         LatLng point100= new LatLng(-33.53388200,-70.57491300);
         mMap.addMarker(new MarkerOptions().position(point100).title("Los Mapuches 1256").snippet("Papel, Cartón para Bebida, Plástico").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+
+        LatLng point101= new LatLng(-33.5735453,-70.6062057);
+        mMap.addMarker(new MarkerOptions().position(point101).title("Calle Creta Nte. 3940").snippet("Punto limpio vidrio, papel, cartón").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+
+
+
+
+
 
         LatLng point200= new LatLng(-33.53762535,-70.62086102);
         mMap.addMarker(new MarkerOptions().position(point200).title("Cardenal Raúl Silva Henríquez 8283").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
@@ -306,11 +314,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(point213).title("Sotero del Rio 980").snippet("Papel, Cartón para bebida").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
         LatLng point214= new LatLng(-33.54778869,-70.63048548);
         mMap.addMarker(new MarkerOptions().position(point214).title("Pasaje Pedro Ignacio Gatica").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
-
-
-
-
-
 
         LatLng point215= new LatLng(-33.55075679,-70.62628688);
         mMap.addMarker(new MarkerOptions().position(point215).title("Canto General 501").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
