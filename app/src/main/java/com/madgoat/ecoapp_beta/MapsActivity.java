@@ -275,7 +275,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(point100).title("Los Mapuches 1256").snippet("Papel, Cartón para Bebida, Plástico").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
 
         LatLng point101= new LatLng(-33.5735453,-70.6062057);
-        mMap.addMarker(new MarkerOptions().position(point101).title("Calle Creta Nte. 3940").snippet("Punto limpio vidrio, papel, cartón").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+        mMap.addMarker(new MarkerOptions().position(point101).title("Calle Creta Nte. 3940").snippet("Punto limpio - vidrio, papel, cartón").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
 
 
 
