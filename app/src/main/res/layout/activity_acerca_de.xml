@@ -16,7 +16,7 @@
             android:layout_width="245dp"
             android:layout_height="233dp"
             android:layout_gravity="center"
-            app:srcCompat="@drawable/instatommie" />
+            app:srcCompat="@drawable/chile_verde" />
 
         <TextView
             android:id="@+id/textView8"
@@ -42,7 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10px"
-            android:text="• TommieSoftware@gmail.com"
+            android:text="• "
             android:textColor="#000000"
             android:textSize="18sp" />
 
@@ -61,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10px"
-            android:text="• tommie.software"
+            android:text="• "
             android:textColor="#000000"
             android:textSize="18sp" />
 

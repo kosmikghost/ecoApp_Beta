@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EcoCHILE</string>
+    <string name="app_name">ChileVerde - Puntos de Reciclaje</string>
     <string name="title_activity_maps">Santiago</string>
     <string name="title_activity_valparaiso">Map</string>
     <string name="title_activity_reciclaje_creativo">ReciclajeCreativo</string>

@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void abrirRegiones(View view){
-        Intent abriregion = new Intent(this, Regiones.class );
+        Intent abriregion = new Intent(this, MapsActivity.class );
         startActivity(abriregion);
     }
 
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(id==R.id.help){
             Toast.makeText(this,"Ayuda", Toast.LENGTH_SHORT).show();
-            Intent abriayudahome = new Intent(this, AyudaHome.class );
+            Intent abriayudahome = new Intent(this, ayudaMapa.class );
             startActivity(abriayudahome);
         }
 

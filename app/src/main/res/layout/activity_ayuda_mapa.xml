@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10px"
             android:paddingTop="20px"
-            android:text="1. Para acceder al mapa primero debes seleccionar la región que desees."
+            android:text="1. Para acceder al mapa primero debes presionar el boton que direcciona a las ubicaciones."
             android:textColor="#000000"
             android:textSize="16sp" />
 
@@ -38,7 +38,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20px"
             android:layout_marginBottom="20px"
-            app:srcCompat="@drawable/paso1" />
+            app:srcCompat="@drawable/puntosreciclaje" />
 
         <TextView
             android:id="@+id/textView2"
