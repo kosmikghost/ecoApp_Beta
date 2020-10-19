@@ -277,6 +277,78 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng point101 = new LatLng(-33.5735453, -70.6062057);
         mMap.addMarker(new MarkerOptions().position(point101).title("Calle Creta Nte. 3940").snippet("Punto limpio - vidrio, papel, cartón").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
 
+        //Lo Barnnechea
+        LatLng point102 = new LatLng(-33.355445, -70.538539);
+        mMap.addMarker(new MarkerOptions().position(point102).title("Av. Jose Alcalde Delano 10628-10638").snippet("Vidrio").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point103 = new LatLng(-33.353063, -70.520642);
+        mMap.addMarker(new MarkerOptions().position(point103).title("El Rodeo 12850").snippet("pila, celular").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point104 = new LatLng(-33.350845, -70.519394);
+        mMap.addMarker(new MarkerOptions().position(point104).title("Avenida La Dehesa 2245").snippet("Vidrio").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point105 = new LatLng(-33.351106, -70.506084);
+        mMap.addMarker(new MarkerOptions().position(point105).title("Bertait College").snippet("vidrio, papel").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+
+        LatLng point106 = new LatLng(-33.351303, -70.505157);
+        mMap.addMarker(new MarkerOptions().position(point106).title("Avenida El Rodeo 13710").snippet("Vidrio").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point107 = new LatLng(-33.353633, -70.507911);
+        mMap.addMarker(new MarkerOptions().position(point107).title("Avenida Lo Barnechea 1648").snippet("pila, celular").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point108 = new LatLng(-33.363783, -70.498180);
+        mMap.addMarker(new MarkerOptions().position(point108).title("Mons Escrivá de Balaguer Nte").snippet("Vidrio").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point109 = new LatLng(-33.366788, -70.500581);
+        mMap.addMarker(new MarkerOptions().position(point109).title("El Sauce 14237").snippet("vidrio, papel, cartón, plástico").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point110 = new LatLng(-33.368765, -70.502243);
+        mMap.addMarker(new MarkerOptions().position(point110).title("Av. las Condes 14141").snippet("vidrio, papel, cartón, cartón para bebida, plástico").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+
+        LatLng point111 = new LatLng(-33.369813, -70.512323);
+        mMap.addMarker(new MarkerOptions().position(point111).title("Avenida Las Condes 12916").snippet("pila, celular").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point112 = new LatLng(-33.371906, -70.514687);
+        mMap.addMarker(new MarkerOptions().position(point112).title("Avenida Las Condes 12000").snippet("vidrio, papel, cartón, plástico").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point113 = new LatLng(-33.372829, -70.517700);
+        mMap.addMarker(new MarkerOptions().position(point113).title("Avenida Las Condes 12000").snippet("Vidrio").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point114 = new LatLng(-33.373527, -70.519228);
+        mMap.addMarker(new MarkerOptions().position(point114).title("Av. las Condes 12201-12235").snippet("vidrio, papel, cartón, cartón para bebida, plástico").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point115 = new LatLng(-33.372815, -70.519922);
+        mMap.addMarker(new MarkerOptions().position(point115).title("Av. las Condes 12250").snippet("Punto limpio - vidrio, papel, cartón, plástico").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+
+        LatLng point116 = new LatLng(-33.391988, -70.500420);
+        mMap.addMarker(new MarkerOptions().position(point116).title("Av Plaza 680").snippet("Punto limpio - vidrio, papel, cartón, cartón para bebida, plástico, metal").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+        LatLng point117 = new LatLng(-33.394015, -70.516663);
+        mMap.addMarker(new MarkerOptions().position(point117).title("Francisco Bulnes Correa 1212-1223").snippet("Punto limpio - vidrio, papel, cartón, plástico").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+        LatLng point118 = new LatLng(-33.401428, -70.514320);
+        mMap.addMarker(new MarkerOptions().position(point118).title("Avenida Camino El Alba 11969").snippet("vidrio, papel, cartón, cartón para bebida, plástico, metal").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point119 = new LatLng(-33.401404, -70.516546);
+        mMap.addMarker(new MarkerOptions().position(point119).title("Camino El Alba 11865").snippet("pila, celular").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point120 = new LatLng(-33.385056, -70.533424);
+        mMap.addMarker(new MarkerOptions().position(point120).title("Avenida Las Condes 10295").snippet("pila, celular").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+
+        LatLng point121 = new LatLng(-33.368597, -70.519052);
+        mMap.addMarker(new MarkerOptions().position(point121).title("Avenida Raúl Labbé 12099").snippet("Punto limpio - vidrio, papel, cartón, plástico, metal").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+        LatLng point122 = new LatLng(-33.378915, -70.551857);
+        mMap.addMarker(new MarkerOptions().position(point122).title("Calle Padre de Veuster 2215").snippet("vidrio").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point123 = new LatLng(-33.382218, -70.553743);
+        mMap.addMarker(new MarkerOptions().position(point123).title("Calle Lo Beltrán 8751").snippet("vidrio").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point124 = new LatLng(-33.381676, -70.561905);
+        mMap.addMarker(new MarkerOptions().position(point124).title("Lo Beltran 2500").snippet("vidrio").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point125 = new LatLng(-33.381524, -70.578679);
+        mMap.addMarker(new MarkerOptions().position(point125).title("Borde Río, Monseñor Escriva De Balaguer 6400").snippet("papel, cartón").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         LatLng point200 = new LatLng(-33.53762535, -70.62086102);
         mMap.addMarker(new MarkerOptions().position(point200).title("Cardenal Raúl Silva Henríquez 8283").snippet("Punto Verde").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
@@ -475,4 +547,4 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         
     }
-}
+
