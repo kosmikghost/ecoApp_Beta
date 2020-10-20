@@ -715,6 +715,21 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(point299).title("Ongolmo 7238-7222").snippet("vidrio").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
 
 
+        //300
+
+        LatLng point300= new LatLng(-33.486300, -70.623212);
+        mMap.addMarker(new MarkerOptions().position(point300).title("Arqto Arturo Bianchi").snippet("Vidrio").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point301= new LatLng(-33.502316, -70.575081);
+        mMap.addMarker(new MarkerOptions().position(point301).title("Avenida Las Torres 6108").snippet("Punto limpio - vidrio, papel, cartón, plástico, metal").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+        LatLng point302= new LatLng(-33.578549, -70.581814);
+        mMap.addMarker(new MarkerOptions().position(point302).title("Avenida Concha y Toro 3459").snippet("pila, celular").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point303= new LatLng(-33.516617, -70.678268);
+        mMap.addMarker(new MarkerOptions().position(point303).title("Caren 7298-7116").snippet("Vidrio").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        LatLng point304= new LatLng(-33.492180, -70.651815);
+        mMap.addMarker(new MarkerOptions().position(point304).title("Gran Avenida Jose Miguel Carrera").snippet("vidrio").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+
+
+
         LatLng point400= new LatLng(-33.41211900,-70.57155300);
         mMap.addMarker(new MarkerOptions().position(point400).title("UV C7 Plaza del Inca La Capitania N°255").snippet("Vidrio, Celular").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
         LatLng point401= new LatLng(-33.43641030,-70.74866440);
